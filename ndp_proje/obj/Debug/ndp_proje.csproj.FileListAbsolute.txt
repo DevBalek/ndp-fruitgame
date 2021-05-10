@@ -1,0 +1,10 @@
+C:\Users\balek\source\repos\ndp_proje\bin\Debug\ndp_proje.exe.config
+C:\Users\balek\source\repos\ndp_proje\bin\Debug\ndp_proje.exe
+C:\Users\balek\source\repos\ndp_proje\bin\Debug\ndp_proje.pdb
+C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.csprojAssemblyReference.cache
+C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.Form1.resources
+C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.Properties.Resources.resources
+C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.csproj.GenerateResource.cache
+C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.csproj.CoreCompileInputs.cache
+C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.exe
+C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.pdb
