@@ -24,6 +24,9 @@ namespace ndp_proje
 {
     public partial class Form1 : Form
     {
+        private System.Windows.Forms.Timer timer1;
+        private int counter = 60;
+
         Game game = new Game();
 
         public Form1()
@@ -33,10 +36,36 @@ namespace ndp_proje
 
         private void start_btn_Click(object sender, EventArgs e)
         {
+            start_btn.Enabled = false;
+            solidFruit_btn.Enabled = true;
+            squeezableFruit_btn.Enabled = true;
+
+
+            //Timer Started
+            timer1 = new Timer();
+            timer1.Tick += new EventHandler(Timer1_Tick);
+            timer1.Interval = 1000; // 1 second
+            timer1.Start();
+            countDown.Text = counter.ToString();
+
             game.StartGame();
         }
 
-        
+        private void Timer1_Tick(object sender, EventArgs e)
+        {
+            counter--;
+            if (counter == 0)
+            {
+                timer1.Stop();
+
+                solidFruit_btn.Enabled = false;
+                squeezableFruit_btn.Enabled = false;
+                start_btn.Enabled = true;
+                MessageBox.Show("Süreniz Doldu.");
+            }
+            countDown.Text = counter.ToString();
+        }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {

@@ -15,34 +15,36 @@ namespace ndp_proje
         public double VitaminA { get; set; }
         public double VitaminC { get; set; }
         public Image Image { get; set; }
+        public string Name { get; set; }
 
         //Variables
         int randomNumber;
         Random rand = new Random();
 
         //Cons
-        public Squeezable(double VitaminAper100, double VitaminCper100, Image SqueezablePhoto)
+        public Squeezable(double VitaminAper100, double VitaminCper100, Image SqueezablePhoto, string name)
         {
             Image = SqueezablePhoto;
+            Name = name;
 
             CreateWeight();
             CalculatePerform();
 
-            VitaminA = Weight * VitaminAper100 / 100;
-            VitaminC = Weight * VitaminCper100 / 100;
+            VitaminA = Perform * VitaminAper100 / 100;
+            VitaminC = Perform * VitaminCper100 / 100;
             
         }
 
         public void CalculatePerform()
         {
-            randomNumber = rand.Next(1, 100);
+            randomNumber = rand.Next(30, 70);
             
             Perform = Weight * randomNumber / 100;
         }
 
         public void CreateWeight()
         {
-            randomNumber = rand.Next(30, 70);      
+            randomNumber = rand.Next(70, 120);      
             Weight = randomNumber;
         }
     }

@@ -12,6 +12,7 @@ namespace ndp_proje
         double Perform { get; set; }
         double VitaminA { get; set; }
         double VitaminC { get; set; }
+        string Name { get; set; }
 
         System.Drawing.Image Image { get; }
 
@@ -21,14 +22,9 @@ namespace ndp_proje
 
     }
 
-    public interface IGame
-    {
-
-    }
-
     public interface IButton
     {
-        void CheckFruit(IFruit fruit);
+        bool CheckFruit(IFruit fruit);
 
     }
 
