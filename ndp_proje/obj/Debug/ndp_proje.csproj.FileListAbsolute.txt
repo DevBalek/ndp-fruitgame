@@ -8,3 +8,13 @@ C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.csproj.GenerateResourc
 C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.csproj.CoreCompileInputs.cache
 C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.exe
 C:\Users\balek\source\repos\ndp_proje\obj\Debug\ndp_proje.pdb
+C:\Users\mfBalek\Source\Repos\DevBalek\ndp_proje\ndp_proje\obj\Debug\ndp_proje.exe
+C:\Users\mfBalek\Source\Repos\DevBalek\ndp_proje\ndp_proje\obj\Debug\ndp_proje.pdb
+C:\Users\mfBalek\source\repos\DevBalek\ndp_proje\ndp_proje\bin\Debug\ndp_proje.exe.config
+C:\Users\mfBalek\source\repos\DevBalek\ndp_proje\ndp_proje\bin\Debug\ndp_proje.exe
+C:\Users\mfBalek\source\repos\DevBalek\ndp_proje\ndp_proje\bin\Debug\ndp_proje.pdb
+C:\Users\mfBalek\source\repos\DevBalek\ndp_proje\ndp_proje\obj\Debug\ndp_proje.csprojAssemblyReference.cache
+C:\Users\mfBalek\source\repos\DevBalek\ndp_proje\ndp_proje\obj\Debug\ndp_proje.Form1.resources
+C:\Users\mfBalek\source\repos\DevBalek\ndp_proje\ndp_proje\obj\Debug\ndp_proje.Properties.Resources.resources
+C:\Users\mfBalek\source\repos\DevBalek\ndp_proje\ndp_proje\obj\Debug\ndp_proje.csproj.GenerateResource.cache
+C:\Users\mfBalek\source\repos\DevBalek\ndp_proje\ndp_proje\obj\Debug\ndp_proje.csproj.CoreCompileInputs.cache
